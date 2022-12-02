@@ -19,7 +19,7 @@ for (i = 0; i < mealArray.length; i++) {
 
 let highestAmountOfCal = Math.max(...elfCalorieArray)
 
-console.log(highestAmountOfCal)
+console.log("The elf carrying the most calories has " + highestAmountOfCal)
 
 
 

@@ -24,4 +24,4 @@ for (i = 0; i < 3 ; i++) {
     elfCalorieArray.splice(elfCalorieArray.findIndex(isHighestNumber), 1)
 }
 
-console.log(totalOfTopThree)
+console.log("The three highest calories combined sum up to a total of " + totalOfTopThree)
