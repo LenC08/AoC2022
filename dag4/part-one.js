@@ -2,7 +2,7 @@ const fs = require('fs')
 
 let text = fs.readFileSync("./input.txt", 'utf-8')
 
-const textArray = text.split(/\r?\n/)
+const pairArray = text.split("\n")
 
 let amountOfPairs = 0
 
